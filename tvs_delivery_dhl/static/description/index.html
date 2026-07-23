@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Social Marketing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <style>
+        :root {
+          --primary-color: #00438B;
+          --bg-white: #fff;
+          --text-color: #121212;
+          --text-color-light: #64728f;
+        }
+
+        body {
+          font-family: "Montserrat", sans-serif;
+        }
+
+        .nav-tabs .nav-item.show .nav-link,
+        .nav-tabs .nav-link.active {
+          color: var(--text-color);
+          font-family: Montserrat;
+          font-size: 16px !important;
+          font-weight: 500 !important;
+          border-radius: 30px;
+          line-height: normal;
+          text-transform: capitalize;
+          background-color: #F5F5F5;
+          border: none;
+          margin-bottom: 0;
+          padding: 12px 24px;
+        }
+
+        .nav-tabs .nav-link:focus,
+        .nav-tabs .nav-link:hover {
+          border-color: transparent;
+          isolation: isolate;
+        }
+
+        .nav-tabs .nav-link:focus-visible {
+          border-color: transparent;
+          box-shadow: none;
+        }
+
+         /* owl-carosel */
+      .owl-carousel .owl-nav {
+        position: absolute;
+        top: 42%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        transform: translateY(-42%);
+      }
+
+      .owl-carousel .owl-nav button.owl-prev {
+        position: absolute;
+        right: -36px;
+        font-size: 28px;
+        background-color: #e4e4e4;
+        border-radius: 20px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .owl-carousel .owl-nav button.owl-next {
+        position: absolute;
+        left: -36px;
+        font-size: 28px;
+        background-color: #e4e4e4;
+        border-radius: 20px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+    </style>
+</head>
+<body>
+ 
+<!-- overview -->
+<div class="container">
+    <div class="my-5">
+
+        <div class="tab-content" id="myTabContent1">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="position-relative overflow-hidden"
+                     style="border-radius: 16px; background: #fff; padding: 20px 0;">
+                    <div class="row" style="padding: 2rem 0rem 0 !important;">
+                        <div class="col-lg-8 mx-auto gap-4 d-flex flex-column align-items-center">
+                            <h1 class="text-center text-uppercase my-0" style="color:#000000;font-size: 56px;
+         font-weight: 700;line-height: normal; "><span>DHL Express Shipping</span></h1>
+                            <p class="my-1 text-center text-uppercase" style="
+                color: #000000;
+                font-weight: bold;
+                text-align: center;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 15.96px;
+             ">
+                            </p>
+                            <p class="my-1 text-center" style="
+                color: #000000;
+                font-weight: 400;
+                text-align: center;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 15.96px;">
+                                   Send your packages safely and efficiently through DHL — one of the world’s most trusted courier services. Enjoy fast, reliable, and secure delivery for all your shipments, whether local or international. You can easily track your parcels online in real-time, receive instant updates, and stay informed about every step of your delivery journey from dispatch to destination
+                            </p>
+                        </div>
+
+                    </div>
+                    <!-- key-highlight -->
+                    <div class="my-5" style="border-radius: 16px;
+     padding: 60px 40px;
+     border: 1px solid #EBEEF2;
+     background-position: center;
+     object-fit: cover;
+     background-color: #f4f4f4;
+     box-shadow: 0px 5px 20px -11px rgba(0, 0, 0, 0.25); ">
+                        <div class="row position-relative overflow-hidden">
+                            <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center">
+                                <h2 style=" color: #000000; text-align: center;font-size: 56px;font-weight: 700;text-transform: uppercase; padding-bottom: 50px;">
+                                    Key Features</h2>
+                            </div>
+                            <div class="col-lg-4 ">
+                                <div class="mb-4 position-relative d-flex flex-column justify-content-center gap-3"
+                                     style="border-radius: 12px;
+            background-color:  #ffffff; padding:32px;z-index: 2; ">
+                                    <div class="d-flex justify-content-center align-items-center"
+                                         style=" border-radius:8px !important; height:50px; width:50px">
+                                        <img src="1.png" class="img-responsive" height="70px" width="70px">
+                                    </div>
+                                    <h5 class="m-0"
+                                        style="color:#000 !important; font-weight:bold">
+                                        Direct Label Generation
+                                    </h5>
+                                    <p class="m-0"
+                                       style="font-size:0.9rem; color:var(--text-color-light); font-size: 16px; font-weight: 400;">
+                                    Generate official DHL shipping labels and commercial invoices directly from the Odoo delivery order with a single click. No more re-typing addresses or package details.
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="mb-4 position-relative d-flex flex-column justify-content-center gap-3"
+                                     style="border-radius: 12px;
+
+          background-color:  #ffffff; padding:32px;z-index: 2; ">
+                                    <div class="d-flex justify-content-center align-items-center"
+                                         style=" border-radius:8px !important; height:42px; width:42px">
+                                        <img src="2.png"
+                                             class="img-responsive" height="70px" width="70px">
+                                    </div>
+                                    <h5 class="m-0"
+                                        style="color:#000 !important; font-weight:bold">
+                                        Real-Time Rate Calculation
+                                    </h5>
+                                    <p class="m-0"
+                                       style="font-size:0.9rem; color:var(--text-color-light); font-size: 16px; font-weight: 400;">
+                                    Automatically fetch and display live DHL shipping rates on your Sales Orders or at the time of delivery, allowing you to accurately charge customers or compare service costs.
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="mb-4 position-relative d-flex flex-column justify-content-center gap-3"
+                                     style="border-radius: 12px;
+
+           background-color:  #ffffff; padding:32px;z-index: 2;">
+                                    <div class="d-flex justify-content-center align-items-center"
+                                         style=" border-radius:8px !important; height:42px; width:42px">
+                                        <img src="3.png"
+                                             class="img-responsive" height="70px"
+                                             width="70px">
+                                    </div>
+                                    <h5 class="m-0"
+                                        style="color:#000 !important; font-weight:bold">
+                                       Automatic Tracking Number Retrieval
+                                    </h5>
+                                    <p class="m-0"
+                                       style="font-size:0.9rem; color:var(--text-color-light); font-size: 16px; font-weight: 400;">
+                                         Once a label is created, the official DHL tracking number is automatically fetched and stored in Odoo, linking it directly to the delivery order.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 ">
+                                <div class="mb-4 position-relative d-flex flex-column justify-content-center gap-3"
+                                     style="border-radius: 12px;
+           background-color:  #ffffff; padding:32px;z-index: 2; ">
+                                    <div class="d-flex justify-content-center align-items-center"
+                                         style="border-radius:8px !important; height:42px; width:42px">
+                                        <img src="4.png" class="img-responsive" height="70px" width="70px">
+                                    </div>
+                                    <h5 class="m-0"
+                                        style="color:#000 !important; font-weight:bold">
+                                       Automated Customer Notifications
+                                    </h5>
+                                    <p class="m-0"
+                                       style="font-size:0.9rem; color:var(--text-color-light); font-size: 16px; font-weight: 400;">
+                                        The module seamlessly integrates with Odoo's notification system. Your customers will automatically receive an email with their tracking number and a link to the DHL tracking site as soon as the order is shipped.
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="mb-4 position-relative d-flex flex-column justify-content-center gap-3"
+                                     style="border-radius: 12px;
+
+          background-color:  #ffffff; padding:32px;z-index: 2; ">
+                                    <div class="d-flex justify-content-center align-items-center"
+                                         style="background-color:#00438B !important; border-radius:8px !important; height:42px; width:42px">
+                                        <img src="5.png"
+                                             class="img-responsive" height="70px"
+                                             width="70px">
+                                    </div>
+                                    <h5 class="m-0"
+                                        style="color:#000 !important; font-weight:bold">
+                                       Support for All Shipment Types
+                                    </h5>
+                                    <p class="m-0"
+                                       style="font-size:0.9rem; color:var(--text-color-light); font-size: 16px; font-weight: 400;">
+                                        Whether you're sending a document, a small parcel, or a large international shipment, the module supports all major DHL services and handles both domestic and international logistics.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="mb-4 position-relative d-flex flex-column justify-content-center gap-3"
+                                     style="border-radius: 12px;
+
+        background-color:  #ffffff; padding:32px;z-index: 2; ">
+                                    <div class="d-flex justify-content-center align-items-center"
+                                         style="background-color:#00438B !important; border-radius:8px !important; height:42px; width:42px">
+                                        <img src="6.png"
+                                             class="img-responsive" height="70px" width="70px">
+                                    </div>
+                                    <h5 class="m-0"
+                                        style="color:#000 !important; font-weight:bold">
+                                         Effortless Return Label Generation
+                                    </h5>
+                                    <p class="m-0"
+                                       style="font-size:0.9rem; color:var(--text-color-light); font-size: 16px; font-weight: 400;">
+                                         Manage customer returns with ease. The module allows you to generate DHL return labels just as easily as outbound ones, simplifying your reverse logistics process.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- screenshot and other -->
+                    <div class="mb-4 bg-white"
+                         style=" border: 1px solid #EBEEF2; border-radius: 6px; box-shadow: 0px 8px 20px -4px rgba(0, 0, 0, 0.10); border: 1px solid #EBEEF2;">
+                        <div>
+                            <ul class="nav nav-tabs justify-content-center bg-white py-2"
+                                id="myTab" role="tablist" style="border-radius: 6px 6px 0 0;
+        ">
+                                <li class="nav-item">
+                                    <a aria-controls="overview"
+                                       class="nav-link active" data-bs-toggle="tab"
+                                       href="#overview" id="overview-tab" role="tab"
+                                       style="color:#121212; font-weight:500; font-size:16px">
+                                        ScreenShots</a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                         <div class="tab-content p-md-5 p-2 py-3" id="myTabContent">
+                            <div aria-labelledby="overview-tab"
+                                 class="tab-pane fade show active" id="overview"
+                                 role="tabpanel">
+                                <div class="position-relative mb-4"
+                                     style="border-radius:10px">
+                                    <img alt="acc_bg"
+                                         class="w-100 h-100 position-absolute img-fluid left_0"
+                                         loading="lazy"
+                                         src=""
+                                         style="">
+                                </div>
+                                <div class="position-relative mb-4"
+                                     style="border-radius:10px; background-color:#f4f4f4">
+                                    <div class="p-md-5 p-3 position-relative">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h1 style="font-weight:bold; font-size:calc(1.1rem + 1vw); line-height:120%; text-align:center; text-transform:capitalize; font-size: 40px;font-weight: 700;">
+                                                    <span style="color:#121212; font-size:calc(1.1rem + 1vw)"></span>
+                                                </h1>
+                                            </div>
+                                            <div class="col-md-12 mb-4">
+                                                <p style="font-weight:400; font-size:16px; line-height:150%; text-align:center;  color:var(--text-color-light)">Under the DHL Shipping Methods section, you can easily access and configure all DHL delivery carriers.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-12 text-center">
+                                                <div class="d-inline-block p-3 shadow-sm"
+                                                     style="background-color:#fff; border-radius:10px">
+                                                    <img alt="" class="img-fluid"
+                                                         loading="lazy"
+                                                         src="11.png"
+                                                         style="min-height: 1px;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="position-relative mb-4"
+                                     style="border-radius:10px; background-color:#f4f4f4">
+                                    <div class="p-md-5 p-3 position-relative">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h1 style="font-weight:bold; font-size:calc(1.1rem + 1vw); line-height:120%; text-align:center; text-transform:capitalize; font-size: 40px;font-weight: 700;">
+                                                    <span style="color:#121212; font-size:calc(1.1rem + 1vw)"></span>
+                                                </h1>
+                                            </div>
+                                            <div class="col-md-12 mb-4">
+                                                <p style="font-weight:400; font-size:16px; line-height:150%; text-align:center;  color:var(--text-color-light)"> Manage and view all available DHL delivery methods
+                                                </p>
+                                            </div>
+                                            <div class="col-md-12 text-center">
+                                                <div class="d-inline-block p-3 shadow-sm"
+                                                     style="background-color:#fff; border-radius:10px">
+                                                    <img alt="" class="img-fluid"
+                                                         loading="lazy"
+                                                         src="12.png"
+                                                         style="min-height: 1px;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="position-relative mb-4"
+                                     style="border-radius:10px; background-color:#f4f4f4">
+                                    <div class="p-md-5 p-3 position-relative">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h1 style="font-weight:bold; font-size:calc(1.1rem + 1vw); line-height:120%; text-align:center; text-transform:capitalize; font-size: 40px;font-weight: 700;">
+                                                    <span style="color:#121212; font-size:calc(1.1rem + 1vw)"></span>
+                                                </h1>
+                                            </div>
+                                            <div class="col-md-12 mb-4">
+                                                <p style="font-weight:400; font-size:16px; line-height:150%; text-align:center;  color:var(--text-color-light)">
+                                                    Set your DHL credentials, choose service type, label format, package type, and enable billing or return label options
+                                                </p>
+                                            </div>
+                                            <div class="col-md-12 text-center">
+                                                <div class="d-inline-block p-3 shadow-sm"
+                                                     style="background-color:#fff; border-radius:10px">
+                                                    <img alt="" class="img-fluid"
+                                                         loading="lazy"
+                                                         src="13.png"
+                                                         style="min-height: 1px;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+
+                            </div>
+                            <div aria-labelledby="faq-tab"
+                                 class="tab-pane fade show" id="faq"
+                                 role="tabpanel">
+                                <div class="row"
+                                     style=" background-color:#fff !important">
+                                    <div class="col-lg-12 d-flex flex-column align-items-center">
+                                        <h1 class="text-center text-uppercase"
+                                            style="font-family:Montserrat, 'sans-serif' !important; font-size:40px !important; color:#791d97; font-weight:900 !important">
+                                            <span style="color:var(--primary-color)">FAQ </span>
+                                            <sup>
+                                            </sup>
+                                        </h1>
+                                    </div>
+                                    <div class="col-md-12" aria-labelledby="faq-tab"
+                                         id="faq1" role="tabpanel">
+                                        <div class="accordion mb-4" id="accordion6">
+                                            <div style="background-color:#fff">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div aria-labelledby="releases-tab"
+                                 class="tab-pane fade show" id="releases"
+                                 role="tabpanel">
+                                <div class="row pt-5 m-0">
+                                    <div class="col-md-3">
+                                        <h4 style="font-size:16px; font-weight:600; color:#514F4F; margin:0; line-height:26px;">
+                                            Release 17.0.1.0.0
+                                        </h4>
+                                        <span style="font-size:14px; color:#7A7979; display:block; margin-bottom:20px;">
+                      1 December, 2024
+                    </span>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div style="padding:0 0 40px">
+                                            <div style="margin:0 0 10px">
+                                                <div
+                                                        style="display:inline-block; padding:0px 8px; color:#514F4F; background-color:#b5d9ff; border-radius:20px">
+                                                    Add
+                                                </div>
+                                            </div>
+                                            <div class="d-flex m-0"
+                                                 style="color:#7A7979;">
+                                                <ul class="pl-3 mb-0">
+                                                    <li>
+                                                        Initial Commit
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div style="padding:0 0 0; border-bottom:1px solid #E3E3E3">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- service-section -->
+                    <section class="sh_our_services" style="padding: 50px 0px;background-color: transparent;">
+                        <div class="container">
+                            <h2 style="color: #091E42;font-family: &quot;Montserrat&quot;;text-align: center;margin: 25px auto;text-transform: uppercase;"
+                                class="oe_slogan">
+                                <b>Our Services</b>
+                            </h2>
+                            <div class="row">
+                                <div class="col-md-3 text-center">
+                                    <div class="box p-4 shadow rounded mb-2"
+                                         style="background-color: #dfd7ff;border: 2px solid #9284d2;border-radius: 0.25rem !important;">
+                                        <a href="razzakusama@gmail.com" target="_blank" style="text-decoration: none;">
+                                            <div class="icon_img mb-2">
+                                                <img src="info.png" alt="info" style="height: 55px;"></img>
+                                            </div>
+                                            <div class="content">
+                                                <p class="mb-0"
+                                                   style="font-size: 18px;color: #604eaf;font-weight: bold;">Odoo
+                                                    Implementation</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 text-center">
+                                    <div class="box p-4 shadow rounded mb-2"
+                                         style="background-color: #ffcee2;border: 2px solid #c5648c;border-radius: 0.25rem !important;">
+                                        <a href="razzakusama@gmail.com" target="_blank" style="text-decoration: none;">
+                                            <div class="icon_img mb-2">
+                                                <img src="setting.png" alt="setting" style="height: 55px;"></img>
+                                            </div>
+                                            <div class="content">
+                                                <p class="mb-0"
+                                                   style="font-size: 18px;color: #b54574;font-weight: bold;">Odoo
+                                                    Customization</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 text-center">
+                                    <div class="box p-4 shadow rounded mb-2"
+                                         style="background-color: #dfe8b4;border: 2px solid #97a362;border-radius: 0.25rem !important;">
+                                        <a href="razzakusama@gmail.com" target="_blank" style="text-decoration: none;">
+                                            <div class="icon_img mb-2">
+                                                <img src="user.png" alt="user" style="height: 55px;"></img>
+                                            </div>
+                                            <div class="content">
+                                                <p class="mb-0"
+                                                   style="font-size: 18px;color: #7f9037;font-weight: bold;">
+                                                    Support & Maintenance</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 text-center">
+                                    <div class="box p-4 shadow rounded mb-2"
+                                         style="background-color: #eaddca;border: 2px solid #a38762;border-radius: 0.25rem !important;">
+                                        <a href="razzakusama@gmail.com" target="_blank" style="text-decoration: none;">
+                                            <div class="icon_img mb-2">
+                                                <img src="migrate.png" alt="migration" style="height: 55px;"></img>
+                                            </div>
+                                            <div class="content">
+                                                <p class="mb-0"
+                                                   style="font-size: 18px;color: #946d38;font-weight: bold;">
+                                                    Migration Services</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-3 text-center">
+                                    <div class="box p-4 shadow rounded mb-2"
+                                         style="background-color: #85dbd2;border: 2px solid #2F5755;border-radius: 0.25rem !important;">
+                                        <a href="razzakusama@gmail.com" target="_blank" style="text-decoration: none;">
+                                            <div class="icon_img mb-2">
+                                                <img src="integration.png" alt="Third Party App Integration"
+                                                     style="height: 55px;"></img>
+                                            </div>
+                                            <div class="content">
+                                                <p class="mb-0"
+                                                   style="font-size: 18px;color: #2F5755;font-weight: bold;">
+                                                    Third Party Integration</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 text-center">
+                                    <div class="box p-4 shadow rounded mb-2"
+                                         style="background-color: #D5CEA3;border: 2px solid #3C2A21;border-radius: 0.25rem !important;">
+                                        <a href="razzakusama@gmail.com" target="_blank" style="text-decoration: none;">
+                                            <div class="icon_img mb-2">
+                                                <img src="ai.png" alt="setting" style="height: 55px;"></img>
+                                            </div>
+                                            <div class="content">
+                                                <p class="mb-0"
+                                                   style="font-size: 18px;color: #3C2A21;font-weight: bold;">
+                                                    AI & Business Integration</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 text-center">
+                                    <div class="box p-4 shadow rounded mb-2"
+                                         style="background-color: #F4EEE0;border: 2px solid #393646;border-radius: 0.25rem !important;">
+                                        <a href="razzakusama@gmail.com" target="_blank" style="text-decoration: none;">
+                                            <div class="icon_img mb-2">
+                                                <img src="training.png" alt="user" style="height: 55px;"></img>
+                                            </div>
+                                            <div class="content">
+                                                <p class="mb-0"
+                                                   style="font-size: 18px;color: #393646;font-weight: bold;">
+                                                    Odoo Training</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 text-center">
+                                    <div class="box p-4 shadow rounded mb-2"
+                                         style="background-color: #C4BBF0;border: 2px solid #4F3B78;border-radius: 0.25rem !important;">
+                                        <a href="razzakusama@gmail.com" target="_blank" style="text-decoration: none;">
+                                            <div class="icon_img mb-2">
+                                                <img src="mobile-phone.png" alt="Mobile Apps"
+                                                     style="height: 55px;"></img>
+                                            </div>
+                                            <div class="content">
+                                                <p class="mb-0"
+                                                   style="font-size: 18px;color: #4F3B78;font-weight: bold;">
+                                                    Mobile Apps</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+
+                <!-- licence -->
+                <div class="tab-pane fade" id="profile" role="tabpanel"
+                     aria-labelledby="profile-tab">
+                    <div class="px-5">
+                        ....
+                    </div>
+                </div>
+                <!--  -->
+            </div>
+            <!--  -->
+        </div>
+    </div>
+</div>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>
+    $('.owl-carousel').owlCarousel({
+     rtl:true,
+     loop:true,
+     margin:10,
+     nav:true,
+     responsive:{
+         0:{
+             items:1
+         },
+         600:{
+             items:3
+         },
+         1000:{
+             items:3
+         }
+     }
+   })
+</script>
+
+</html>
